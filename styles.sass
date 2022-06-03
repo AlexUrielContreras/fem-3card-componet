@@ -1,9 +1,14 @@
+@mixin card-dimension($card-dimenstion: 300px)
+    width: $card-dimenstion
+    height: 550px
+    border: 2px red solid
 * 
     margin: 0
     padding: 0
     box-sizing: border-box
 
-
+main 
+    height: 100vh
 
 .attribution 
     font-size: 11px
@@ -11,7 +16,25 @@
     a 
         color: hsl(228, 45%, 44%)
 
-
 footer 
     position: fixed
     bottom: 0
+
+.container
+    display: flex
+    justify-content: center
+    align-items: center
+    min-width: 400px
+
+.card-title 
+    font-family: 'Lexend Deca', sans-serif
+    
+.suv 
+    @include card-dimension
+    
+
+.sedan 
+    @include card-dimension
+
+.luxury
+    @include card-dimension
