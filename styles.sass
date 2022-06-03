@@ -2,6 +2,9 @@
     width: $card-dimenstion
     height: 550px
     border: 2px red solid
+    font-family: 'Lexend Deca', sans-serif
+    color: hsla(0, 0%, 100%, 0.75)
+
 * 
     margin: 0
     padding: 0
@@ -9,6 +12,7 @@
 
 main 
     height: 100vh
+    font-size: 15px
 
 .attribution 
     font-size: 11px
@@ -27,14 +31,17 @@ footer
     min-width: 400px
 
 .card-title 
-    font-family: 'Lexend Deca', sans-serif
+    font-family: 'Big Shoulders Display', cursive
+    color: hsl(0, 0%, 95%)
     
-.suv 
-    @include card-dimension
-    
-
 .sedan 
     @include card-dimension
+    background-color: hsl(31, 77%, 52%)
+
+.suv 
+    @include card-dimension
+    background-color: hsl(184, 100%, 22%)
 
 .luxury
     @include card-dimension
+    background-color: hsl(179, 100%, 13%)

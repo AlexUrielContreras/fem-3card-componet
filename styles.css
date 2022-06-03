@@ -6,6 +6,7 @@
 
 main {
   height: 100vh;
+  font-size: 15px;
 }
 
 .attribution {
@@ -29,25 +30,35 @@ footer {
 }
 
 .card-title {
-  font-family: "Lexend Deca", sans-serif;
-}
-
-.suv {
-  width: 300px;
-  height: 550px;
-  border: 2px red solid;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
 }
 
 .sedan {
   width: 300px;
   height: 550px;
   border: 2px red solid;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(31deg, 77%, 52%);
+}
+
+.suv {
+  width: 300px;
+  height: 550px;
+  border: 2px red solid;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(184deg, 100%, 22%);
 }
 
 .luxury {
   width: 300px;
   height: 550px;
   border: 2px red solid;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(179deg, 100%, 13%);
 }
 
 /*# sourceMappingURL=styles.css.map */
