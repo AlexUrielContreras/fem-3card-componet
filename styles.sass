@@ -1,6 +1,6 @@
 @mixin card-layout($card-layout: 300px)
     width: $card-layout
-    height: 500px
+    height: 465px
     font-family: 'Lexend Deca', sans-serif
     color: hsla(0, 0%, 100%, 0.75)
     padding: 50px
@@ -20,8 +20,6 @@
 @mixin btn-hover($btn-hover: $bright-orange)
     background-color: $btn-hover
     color: $transparent-white
-
-/**** Color Variables ****/
 
 $bright-orange: hsl(31, 77%, 52%)
 $dark-cyan: hsl(184, 100%, 22%)
@@ -101,6 +99,19 @@ footer
 .luxury-btn:hover
    @include btn-hover($btn-hover: $very-dark-cyan)
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 700px) 
     .container 
+        all: initial
+        display: flex
         flex-direction: column
+        align-items: center 
+        margin: 20px 0
+
+    .sedan
+        border-radius: 10px 10px 0 0
+
+    .luxury
+        border-radius: 0 0 10px 10px
+    footer 
+        all: unset
+  
