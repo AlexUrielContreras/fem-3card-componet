@@ -40,13 +40,13 @@ footer {
 .card-title {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0deg, 0%, 95%);
-  font-size: 2.1em;
+  font-size: 2.5em;
   margin: 30px 0;
 }
 
 .sedan {
   width: 300px;
-  height: 465px;
+  height: 500px;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0deg, 0%, 100%, 0.75);
   padding: 50px;
@@ -59,7 +59,7 @@ footer {
 
 .suv {
   width: 300px;
-  height: 465px;
+  height: 500px;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0deg, 0%, 100%, 0.75);
   padding: 50px;
@@ -71,7 +71,7 @@ footer {
 
 .luxury {
   width: 300px;
-  height: 465px;
+  height: 500px;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0deg, 0%, 100%, 0.75);
   padding: 50px;
